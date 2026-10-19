@@ -1,0 +1,36 @@
+# Maven and Java build output
+target/
+**/target/
+*.class
+*.jar
+
+# Local Maven distribution and downloaded tooling
+tools/
+
+# Local database configuration and credentials
+db.properties
+src/main/resources/db.properties
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# IDE settings
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+
+# Logs and temporary files
+*.log
+logs/
+*.tmp
+*.swp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,10 @@
+# Copy to db.properties and update the non-secret connection settings.
+# Set the password separately using SCANSHIFT_DB_PASSWORD.
+
+DB_HOST=localhost
+DB_PORT=3306
+DB_NAME=scanshift
+DB_USER=root
+
+# Optional JDBC URL override.
+#DB_URL=jdbc:mysql://localhost:3306/scanshift?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
